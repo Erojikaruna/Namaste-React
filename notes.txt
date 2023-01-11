@@ -1,0 +1,65 @@
+1.What is Emmet?
+
+A.Emmet is a set of plug-ins for text editors that allow for high speed coding and editing in HTML, XML, XSLT and other structured code formats via content assist.
+ The project was started by vadim makeev in 2008 and continues to be actively developed by sergey chikuyonok.
+
+2. Difference between a Library & Framework?
+
+A. Both framework and libraries are code written by someone else that is used to help solve common problems.
+
+ library is something limited to module. class,object,functions &prewrittencode, where as Framework comprises lots of API's, compilers.
+
+ A framework inverts the control of the program.It tells the developer what they need.A library doesn't the programmer calls the library where and when they need it.
+
+3.What is CDN? Why we use it?
+
+A.A content delivery network refers to a geographically distributed group of servers which work together to provide fast delivery of internet content.
+ A cdn allows for the quick transfer of assets needed for loading internet content including HTML pages,js files,stlesheet,images and videos. The popularity of cdn services continues to grow,and today the majority of web traffic is served  through cdn's,including traffic from major sites like Facebook,Netflix& Amazon.
+
+How does a cdn work..
+
+A cdn is a network of servers linked together with global of delivering content as quickly,cheaply,reliably and securely as possible.
+
+in order to improve speed and connectivity, a cdn will place servers at the exchange points between different networks.
+ these internet exchange points are the primary locations where different internet provider connect in order to provide each other acces to traffic organating on thier different networks.
+
+4.Why React knows as React?
+A.Name itself react will reacted when there is a change in data.
+ React renders everything that is changing in the webpage constantly.The change being mode depends upon
+  The change in the state of the application.so,reacting to every change in the state got react to be calledd React.
+
+5.What is cross Origin in Script tag?
+
+A.The cross origin attribute sets the mode of the request to an HTTP CORS Request webpages often make requests to load resources on other serers.Here is where CORS comes in.
+
+A cross-origin request is a request for a resource(e.g stylesheets, iframes, images,fonts or scripts) from another domain.
+
+CORS stands for cross-origin Resource sharing and is a mechanism that allows resources on a webpage to be requested from another domain outside their own domain.
+
+It defines a way of how a browser and Server can interact to determine. whether it is safe to allow the cross-origin request.CORS allow Servers to specify who can access the assets on the Server,among many other things.
+
+6.What is the difference between React and ReactDOM ?
+
+A.React: React is a open-Source js library to develop UI (user interface) on web application or site.Its fully Component base.
+
+ReactDOM: React DOM is the glue between React and Dom. When you want to show your react component on DOM. you need to use this ReactDOM.render();  from reactDom.
+
+Reactdom is one the package in React whose only purpose is to render the item into browser.
+
+7.What is difference between react.development.js and react.production.js files via CDN ?
+
+A. The development build is used as the name suggests for development reasons.You have source Maps,debugging and often times hot reloading ability in those builds.
+
+Both have same code but the difference is that react.production is minified code and much optimize to be used for our production app.
+
+8.What is the difference between Async and defer?
+
+A. Async and defer attributes of script tag used to specify how browser should handle the script when loading a page.
+
+Async attribute scripts are executed as soon as the script loaded, so it doesn't guarantee the order of execution.
+
+Defer scripts guarantees the order of execution in which they appear in the page.
+
+By Default:- While parsing the html code when browser encounters script tag,it pauses the parsing,fetches the script form network and executes the script then and there once the script is executed after that browser resumes HTML parsing.
+
+Using defer attribute:- Fetches the script while HTML parsing is going on but executes the script only when the parsing is finished.
